@@ -1,0 +1,19 @@
+@base_url = http://localhost:5189/api
+
+
+
+### cadastar imc
+POST {{base_url}}/aluno/cadastrarimc
+Content-Type: application/json
+
+
+{
+  
+  "alunoId": 2,
+  "altura": 1.70,
+  "peso": 50
+}
+
+###Listar imc
+
+GET POST {{base_url}}/aluno/listarimc

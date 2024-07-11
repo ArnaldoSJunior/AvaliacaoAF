@@ -1,0 +1,13 @@
+@base_url = http://localhost:5189/api
+
+
+
+### cadastar aluno
+POST {{base_url}}/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "arnaldo",
+    "cpf" : "06061994"
+}
+
